@@ -8,9 +8,7 @@ if tema == 1:
     questoes = input ("Qual é a capital do Brasil?\na) Cidade das Rosas\nb) Rio de Janeiro\nc) Brasília\nd) Salvador\nreposta: ")
     if questoes == "c":
         resposta_certa += 1
-        print ("vc acertou! Mas pra mim é meu Cidade das Rosas!")
-    elif questoes == "a":
-        print ("Seguindo as juridições, sua resposta estaria errada, mas pelo o autor desse quiz, sua resposta está TOTALMENTE CERTA, CDR É O MAIOR!!!!")
+        print ("vc acertou!")
     elif questoes not in 'abcd':
         print('invalido')
     else:
